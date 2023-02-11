@@ -4,163 +4,228 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>organic food</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li>About Us</li>
-          <li>Service</li>
-          <li>Menu</li>
-          <li>Contact</li>
+    <header class="header">
+      <div class="container">
+        <nav>
+          <ul class="header-list list">
+            <li class="header-link">About Us</li>
+            <li class="header-link">Service</li>
+            <li class="header-link">Menu</li>
+            <li class="header-link">Contact</li>
+          </ul>
+        </nav>
+        <a href="./images/planet-earth.svg"></a>
+        <ul class="list">
+          <li><a href="./images/Search.svg"></a></li>
+          <li><a href="./images/Group.svg"></a></li>
         </ul>
-      </nav>
-      <a href="./images/planet-earth (1) 1.svg"></a>
-      <ul>
-        <li><a href="./images/Search.svg"></a></li>
-        <li><a href="./images/Group 5206.svg"></a></li>
-      </ul>
-      <button type="button">Regestar Now</button>
+        <button type="button" class="header-button">Regestar Now</button>
+      </div>
     </header>
     <main>
-      <section>
-        <h1>Organic Fruit & Vegetables</h1>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley...
-        </p>
-        <p>Order Now</p>
-        <a href="./images/EllipseOrganic.svg"></a>
-        <img
-          src="./images/vegetables-fruits-white_55883-892 1.jpg"
-          alt="Fruit and Vegetables"
-        />
-        <ul>
-          <li>
-            <a href="./images/user1.svg"></a>
-            <p>30K</p>
-            <p>User Order</p>
-          </li>
-          <li>
-            <a href="./images/star 7.svg"></a>
-            <p>20K</p>
-            <p>Reviews(4.8)</p>
-          </li>
-          <li>
-            <a href="./images/harvest 1.svg"></a>
-            <p>300</p>
-            <p>Items</p>
-          </li>
-        </ul>
+      <section class="hero">
+        <div class="container">
+          <h1 class="hero-title">Organic Fruit & Vegetables</h1>
+          <p class="hero-text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley...
+          </p>
+          <p class="hero-text-btn">Order Now</p>
+          <a href="./images/EllipseOrganic.svg"></a>
+          <div class="hero-div">
+            <img
+              src="./images/vegetables-fruits-white.jpg"
+              alt="Fruit and Vegetables"
+              width="863"
+              height="466"
+            />
+            <ul class="hero-list list">
+              <li>
+                <a href="./images/user.svg"></a>
+                <p class="hero-list-quality">30K</p>
+                <p class="hero-list-text">User Order</p>
+              </li>
+              <li>
+                <a href="./images/star.svg"></a>
+                <p class="hero-list-quality">20K</p>
+                <p class="hero-list-text">Reviews(4.8)</p>
+              </li>
+              <li>
+                <a href="./images/harvest.svg"></a>
+                <p class="hero-list-quality">300</p>
+                <p class="hero-list-text">Items</p>
+              </li>
+            </ul>
+          </div>
+        </div>
       </section>
-      <section>
-        <h2>Why We Aer The Best?</h2>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley...
-        </p>
-        <ul>
-          <li>
-            <a href="./images/delivery-man 2.svg"></a>
-            <h3>Fasted delivery Service</h3>
-            <p>
+      <section class="about">
+        <div class="container">
+          <h2 class="about-title">Why We Aer The Best?</h2>
+          <p class="about-text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley...
+          </p>
+          <div class="about-div">
+            <ul class="about-list list">
+              <li>
+                <a href="./images/delivery-man.svg"></a>
+                <h3 class="about-list-title">Fasted delivery Service</h3>
+                <p class="about-list-text">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+              </li>
+              <li class="about-list-color">
+                <a href="./images/shopping.svg"></a>
+                <h3 class="about-list-title">Online order Service</h3>
+                <p class="about-list-text">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+              </li>
+              <li>
+                <a href="./images/fast-time.svg"></a>
+                <h3 class="about-list-title">24/8 Service</h3>
+                <p class="about-list-text">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+              </li>
+            </ul>
+            <img
+              src="./images/groceries-packages-delivery.jpg"
+              alt="Delivery"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="goods">
+        <div class="container">
+          <img
+            src="./images/SectionExplor.jpg"
+            alt="Fruit and Vegetables"
+            width="600"
+            height="600"
+          />
+          <div class="goods-div">
+            <h2 class="goods-title">Explor Our Special Items</h2>
+            <p class="goods-text">
               Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry.
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer...
             </p>
-          </li>
-          <li>
-            <a href="./images/shopping1.svg"></a>
-            <h3>Online order Service</h3>
-            <p>
+            <div class="goods-group">
+              <p class="goods-button">Explor Now</p>
+              <a href="./images/EllipseOrganic.svg"></a>
+              <img
+                src="./images/GreenSectionExplor.jpg"
+                alt="Green"
+                width="413"
+                height="397"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="reviews">
+        <div class="container">
+          <div class="reviews-group">
+            <h2 class="reviews-title">What Our Customers About Us saying</h2>
+            <p class="reviews-text">
               Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry.
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged. It was
+              popularis
             </p>
-          </li>
-          <li>
-            <a href="./images/fast-time 1.svg"></a>
-            <h3>24/8 Service</h3>
-            <p>
+            <p class="reviews-human">Ahmed Hridoy</p>
+            <a href="./images/StarWhatOur.svg"></a>
+            <ul>
+              <li><a href="./images/EllipseWhatOur.svg"></a></li>
+              <li><a href="./images/EllipseWhatOur.svg"></a></li>
+            </ul>
+          </div>
+          <img src="./images/PhotoWhatAboutCustomer.jpg" alt="" />
+        </div>
+      </section>
+      <section class="order">
+        <div class="container">
+          <img src="./images/PhotoSimpleWay.jpg" alt="Phone" />
+          <img src="./images/PhotoSimpleWay2.jpg" alt="Phone" />
+          <div class="order-group">
+            <button type="button" class="order-btn">Download App</button>
+            <h2 class="order-title">Simple Way To Order Your Organic Fruit</h2>
+            <p class="order-text">
               Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry.
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer...
             </p>
-          </li>
-        </ul>
-        <img src="./images/groceries-packages-delivery.jpg" alt="Delivery" />
+            <ul>
+              <li><a href="./images/AppStoreSimpleWay.svg"></a></li>
+              <li><a href="./images/GooglePlaySimpleWay.svg"></a></li>
+            </ul>
+          </div>
+        </div>
       </section>
-      <section>
-        <img src="./images/SectionExplor.jpg" alt="Fruit and Vegetables" />
-        <h2>Explor Our Special Items</h2>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer...
-        </p>
-        <p>Explor Now</p>
-        <a href="./images/EllipseOrganic.svg"></a>
-        <img src="./images/GreenSectionExplor.jpg" alt="Green" />
-      </section>
-      <section>
-        <h2>What Our Customers About Us saying</h2>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularis
-        </p>
-        <p>Ahmed Hridoy</p>
-        <a href="./images/StarWhatOur.svg"></a>
-        <ul>
-          <li><a href="./images/EllipseWhatOur.svg"></a></li>
-          <li><a href="./images/EllipseWhatOur.svg"></a></li>
-        </ul>
-        <img src="./images/PhotoWhatAboutCustomer.jpg" alt="" />
-      </section>
-      <section>
-        <img src="./images/PhotoSimpleWay.jpg" alt="Phone" />
-        <img src="./images/PhotoSimpleWay2.jpg" alt="Phone" />
-        <button type="button">Download App</button>
-        <h2>Simple Way To Order Your Organic Fruit</h2>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer...
-        </p>
-        <ul>
-          <li><a href="./images/App Store SimpleWay.svg"></a></li>
-          <li><a href="./images/Google Play SimpleWay.svg"></a></li>
-        </ul>
-      </section>
-      <footer>
-        <a href="./images/planet-earth (1) 1.svg"></a>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer...
-        </p>
-        <h3>Navigation</h3>
-        <ul>
-          <li>About Us</li>
-          <li>Service</li>
-          <li>Menu</li>
-        </ul>
-        <h3>Resources</h3>
-        <ul>
-          <li>Reviews</li>
-          <li>Blog</li>
-          <li>Update News</li>
-        </ul>
-        <h3>Contact Us</h3>
-        <li><a href="mailto:info@example.com">Email: oyasim@email.com</a></li>
-        <ul>
-          <li><a href="./images/facebook 1.svg"></a></li>
-          <li><a href="./images/twitter 1.svg"></a></li>
-          <li><a href="./images/instagram 1.svg"></a></li>
-        </ul>
+      <footer class="footer">
+        <div class="container">
+          <a href="./images/planet-earth.svg"></a>
+          <p class="footer-text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer...
+          </p>
+          <div class="navigation-group">
+            <h3 class="footer-title">Navigation</h3>
+            <ul class="footer-list list">
+              <li class="footer-link">About Us</li>
+              <li class="footer-link">Service</li>
+              <li class="footer-link">Menu</li>
+            </ul>
+          </div>
+          <div class="resources-group">
+            <h3 class="footer-title">Resources</h3>
+            <ul class="footer-list list">
+              <li class="footer-link">Reviews</li>
+              <li class="footer-link">Blog</li>
+              <li class="footer-link">Update News</li>
+            </ul>
+          </div>
+          <div class="contact-group">
+            <h3 class="footer-title">Contact Us</h3>
+            <a class="footer-mail link" href="mailto:info@example.com"
+              >Email: oyasim@email.com</a
+            >
+            <ul>
+              <li><a href="./images/facebook.svg"></a></li>
+              <li><a href="./images/twitter.svg"></a></li>
+              <li><a href="./images/instagram.svg"></a></li>
+            </ul>
+          </div>
+        </div>
       </footer>
     </main>
   </body>

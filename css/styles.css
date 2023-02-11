@@ -1,0 +1,367 @@
+:root {
+  --title-color: #222222;
+  --acent-color: #09a66d;
+  --text-color: #555555;
+}
+
+body {
+  font-family: DM Sans, Rosario;
+  color: #222222;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul {
+  padding-left: 0;
+  margin: 0;
+}
+button {
+  cursor: pointer;
+}
+img {
+  display: block;
+}
+
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+------------------------------HEADER-------------------------------------------------------------
+  .header
+  .container {
+  display: flex;
+}
+.header {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.header-list {
+  display: flex;
+}
+.header-link:not(:last-child) {
+  margin-right: 40px;
+}
+.header-link {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.33;
+  color: var(--title-color);
+}
+
+.header-button {
+  border: none;
+  min-width: 160px;
+  height: 34px;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.11;
+  color: #ffffff;
+  background-color: var(--acent-color);
+  border-radius: 8px;
+  margin: 0 auto;
+  display: block;
+}
+
+/*---------- HERO-------------- */
+
+.hero {
+  background-color: #f3fbf8;
+  padding-top: 93px;
+  padding-bottom: 33px;
+  text-align: center;
+}
+
+.hero-title {
+  font-family: "Rosario";
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 1.29;
+  color: var(--title-color);
+  margin-bottom: 20px;
+}
+
+.hero-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  color: var(--text-color);
+
+  width: 637px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.hero-text-btn {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.67;
+  color: var(--text-color);
+}
+.hero-div {
+  display: flex;
+}
+.hero-list {
+  margin-left: 108px;
+}
+.hero-list-quality {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 1;
+  color: #000000;
+}
+
+.hero-list-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  color: #000000;
+}
+
+/*----------ABOUT-------------- */
+.about {
+  padding-top: 140px;
+  padding-bottom: 147px;
+  align-items: center;
+}
+
+.about-title {
+  font-family: "Rosario";
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 1.29;
+  color: var(--title-color);
+}
+
+.about-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  color: var(--text-color);
+  width: 637px;
+  height: 90;
+
+  margin-right: auto;
+  margin-left: 0;
+  margin-bottom: 56px;
+}
+.about-div {
+  display: flex;
+}
+.about-list {
+  margin-right: 230px;
+}
+.about-list-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.5;
+  color: var(--title-color);
+}
+
+.about-list-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.43;
+  color: var(--text-color);
+}
+
+.about-list-color {
+  background-color: #f3fbf8;
+}
+
+/*----------GOODS-------------- */
+.goods .container {
+  display: flex;
+}
+
+.goods {
+  background-color: #f3fbf8;
+  padding-top: 88px;
+  padding-bottom: 143px;
+}
+.goods-div {
+  margin-left: 50px;
+}
+.goods-title {
+  font-family: "Rosario";
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 1.29;
+  color: var(--title-color);
+
+  margin-right: 0;
+  margin-left: auto;
+  margin-bottom: 20px;
+}
+.goods-text {
+  width: 574;
+  height: 90;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  color: var(--text-color);
+}
+
+.goods-group {
+  display: flex;
+}
+.goods-button {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.67;
+  color: var(--title-color);
+}
+
+/*----------REVIEWS-------------- */
+.reviews {
+  padding-top: 96px;
+  padding-bottom: 150px;
+}
+.reviews .container {
+  display: flex;
+}
+
+.reviews-title {
+  font-family: "Rosario";
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 1.29;
+  color: var(--title-color);
+  margin-bottom: 30px;
+}
+.reviews-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  color: var(--text-color);
+  height: 180px;
+  width: 586px;
+  margin-bottom: 40px;
+}
+
+.reviews-human {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.2;
+  color: var(--title-color);
+}
+
+/*----------ORDER-------------- */
+.order .container {
+  display: flex;
+}
+.order {
+  margin-bottom: 140px;
+}
+.order-group {
+  margin-left: 113px;
+}
+.order-btn {
+  border: none;
+  min-width: 170px;
+  height: 40px;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1;
+  color: #333333;
+  background-color: #f3fbf8;
+  border-radius: 50px;
+  margin-bottom: 16px;
+  display: block;
+}
+
+.order-title {
+  font-family: "Rosario";
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 1.29;
+  color: var(--title-color);
+  margin-bottom: 20px;
+}
+
+.order-text {
+  width: 574px;
+  height: 90px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  color: var(--text-color);
+  margin-bottom: 50px;
+}
+/*----------FOOTER-------------- */
+.footer .container {
+  display: flex;
+}
+.footer {
+  background-color: #f3fbf8;
+  padding-top: 66px;
+  padding-bottom: 118px;
+}
+.footer-text {
+  width: 345px;
+  height: 150px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  color: var(--text-color);
+}
+.navigation-group {
+  margin-left: 157px;
+}
+.footer-title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.29;
+  color: var(--title-color);
+  margin-bottom: 40px;
+}
+.resources-group {
+  margin-left: 142px;
+}
+.footer-link {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.28;
+  color: var(--text-color);
+  margin-bottom: 24px;
+}
+.contact-group {
+  margin-left: 142px;
+}
+.footer-mail {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.28;
+  color: var(--title-color);
+}
